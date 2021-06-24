@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main_container {
+  position: relative;
+  height: 80vh;
+  margin-bottom: 5rem;
+}
+
+.main_container-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 70vh;
+  width: 100%;
+}
+
+.main_container-card {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 15rem 25rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(255, 255, 255, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  transform: translateX(-50%);
+  border-radius: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
